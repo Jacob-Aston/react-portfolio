@@ -7,8 +7,9 @@ import Project from "./components/Project";
 function App() {
   return (
     <div>
-      <Header />
+      <Header>
       <Navigation />
+      </Header>
       <Footer />
     </div>
   );
