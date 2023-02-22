@@ -3,7 +3,7 @@ import React from "react";
 function Navigation({ currentPage, handlePageChange }) {
   return (
     <ul className="nav nav-tabs">
-      <li className="nav-item">
+      <div className="nav-item">
         <a
           href="#about"
           onClick={() => handlePageChange("About")}
@@ -11,8 +11,8 @@ function Navigation({ currentPage, handlePageChange }) {
         >
           About Me
         </a>
-      </li>
-      <li className="nav-item">
+      </div>
+      <div className="nav-item">
         <a
           href="#portfolio"
           onClick={() => handlePageChange("Portfolio")}
@@ -20,8 +20,8 @@ function Navigation({ currentPage, handlePageChange }) {
         >
           Portfolio
         </a>
-      </li>
-      <li className="nav-item">
+      </div>
+      <div className="nav-item">
         <a
           href="#contact"
           onClick={() => handlePageChange("Contact")}
@@ -29,8 +29,8 @@ function Navigation({ currentPage, handlePageChange }) {
         >
           Contact
         </a>
-      </li>
-      <li className="nav-item">
+      </div>
+      <div className="nav-item">
         <a
           href="#resume"
           onClick={() => handlePageChange("Resume")}
@@ -38,7 +38,7 @@ function Navigation({ currentPage, handlePageChange }) {
         >
           Resume
         </a>
-      </li>
+      </div>
     </ul>
   );
 }
