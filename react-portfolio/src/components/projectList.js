@@ -1,5 +1,6 @@
 const projects = [
     {
+        image: require("./../assets/images/WeatherForecast.png"),
         title: "project 1",
         deployed: "http...",
         repo: "http..",
