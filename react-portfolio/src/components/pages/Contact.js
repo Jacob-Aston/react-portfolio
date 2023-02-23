@@ -1,5 +1,6 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
+import validator from "validator";
 
 export default function Contact() {
   const form = useRef();
@@ -25,14 +26,41 @@ export default function Contact() {
       );
   };
 
+const [ emailError, setEmailError ] = useState("");
+const [ hasMessage, setHasMessage ] = useState("");
+
+  function validateEmail(e) {
+    const email = e.target.value;
+
+    if (validator.isEmail(email)) {
+      setEmailError("")
+    } 
+    if (!validator.isEmail(email)) {
+      setEmailError("Enter a valid email adress.")
+    }
+  }
+
+  function validateMessage(e) {
+    const message = e.target.value;
+
+    if (message) {
+      setHasMessage("")
+    }
+    if (!message) {
+      setHasMessage("A message is required to contact me.")
+    }
+  }
+
   return (
     <form ref={form} onSubmit={sendEmail}>
       <label>Name</label>
-      <input type="text" name="user_name" />
+      <input type="text" name="user_name" required />
       <label>Email</label>
-      <input type="email" name="user_email" />
+      <input type="email" name="user_email" onBlur={(e) => validateEmail(e)} required/>
       <label>Message</label>
-      <textarea name="message" />
+      <textarea name="message" onBlur={(e) => validateMessage(e)} required/>
+      <div>{emailError}</div>
+      <div>{hasMessage}</div>
       <input type="submit" value="Send" />
     </form>
   );
