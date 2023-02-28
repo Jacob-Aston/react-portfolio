@@ -1,0 +1,30 @@
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input {
+    width: 60%;
+    height: 50px;
+    font-size: 2em;
+}
+
+textarea {
+    height: 300px;
+    font-size: 2em;
+}
+
+label {
+    margin: 20px;
+    font-size: 1.8em;
+}
+
+.submit-btn {
+    margin-top: 20px;
+    width: 30%;
+}
+
+.form-container {
+    margin: auto;
+    width: 80%;
+}

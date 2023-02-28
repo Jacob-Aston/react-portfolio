@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    margin: auto;
+    font-size: 3em;
+}
+
+.header-container {
+    height: auto;
+    width: auto;
+    background-color: #a6b07e;
+    display: flex;
+    align-items: center;
+}
