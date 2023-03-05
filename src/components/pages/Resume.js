@@ -1,5 +1,7 @@
 import React from "react";
 
+import "../../styles/Resume.css";
+
 export default function Resume() {
   return (
     <div>
@@ -8,8 +10,8 @@ export default function Resume() {
         but I sure learned how to work hard along with the importance of supporting my
         team.
       </p>
-      <a href="https://docs.google.com/document/d/15glYOBtjn69N-r6MAXLW3JROV8M4GcMigGGyeDuWnaQ/edit?usp=sharing">
-        Resume
+      <a className="resume" href="https://docs.google.com/document/d/15glYOBtjn69N-r6MAXLW3JROV8M4GcMigGGyeDuWnaQ/edit?usp=sharing">
+        My Resume
       </a>
       <p>Along with my previous work experience here is a list of what we covered in my programming course.</p>
       <ul>

@@ -1,0 +1,21 @@
+p {
+    font-size: 1.5em;
+    text-indent: 50px;
+}
+
+li {
+    font-size: 1.5em;
+}
+
+a.resume {
+    box-sizing: border-box;
+    margin:20px 0px 20px 100px;
+    padding: 20px;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: black;
+    background-color: #bca371;
+    border-radius: 20px;
+    border: 2px solid;
+    border-color: #644536;
+}

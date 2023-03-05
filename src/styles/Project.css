@@ -2,8 +2,13 @@
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 .project-container {
-    position: relative;
+  position: relative;
   width: 30%;
 }
 
@@ -13,22 +18,31 @@
 
 .project-title {
   position: absolute;
+  box-sizing: border-box;
+  padding: 10px;
+  border: 2px solid;
+  font-size: 1.5em;
   top: 8px;
   left: 16px;
-  background-color: whitesmoke;
+  background-color: #fefae0;
 }
 
 .project-deployed {
   position: absolute;
+  box-sizing: border-box;
+  padding: 10px;
+  border: 2px solid;
   bottom: 16px;
   left: 20%;
-  background-color: whitesmoke;
+  background-color: #fefae0;
 }
 
 .project-repo {
   position: absolute;
-  bottom: 8px;
+  box-sizing: border-box;
+  padding: 10px;
+  border: 2px solid;
+  bottom: 16px;
   right: 20%;
-  background-color: whitesmoke;
-
+  background-color: #fefae0;
 }

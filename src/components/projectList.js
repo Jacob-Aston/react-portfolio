@@ -1,10 +1,24 @@
 const projects = [
     {
-        image: require("./../assets/images/WeatherForecast.png"),
-        title: "project 1",
-        deployed: "http...",
-        repo: "http..",
+        image: require("./../assets/images/JATE.png"),
+        title: "Just Another Text Editor",
+        deployed: "https://texty-rexy.herokuapp.com/",
+        deployedText: "Deployed App",
+        repo: "https://github.com/Jacob-Aston/texty-rexy",
+        repoText: "Repo",
         id: "1"
+    },
+    {
+        image: require("./../assets/images/WeatherForecast.png"),
+        title: "Weather Forecast",
+        repo: "https://github.com/Jacob-Aston/weather-forecast",
+        repoText: "Repo",
+        id: "2"
+    },
+    {
+        image: require("./../assets/images/BlackRockProject.jpg"),
+        title: "Black Rock Clean Up",
+        id: "3"
     }
 ]
 

@@ -8,8 +8,16 @@ export default function Project(props) {
         <div class="project-container" key={project.id}>
           <img class="project-image" src={project.image} alt=""></img>
           <div class="project-title">{project.title}</div>
-          <div class="project-deployed">{project.deployed}</div>
-          <div class="project-repo">{project.repo}</div>
+          {project.deployed ? (
+            <a class="project-deployed" href={project.deployed}>{project.deployedText}</a>
+            ) : (
+              <div></div>
+            )}
+          {project.repo ? (
+            <a class="project-repo" href={project.repo}>{project.repoText}</a>
+            ) : (
+              <div></div>
+            )}
         </div>
       ))}
     </ul>
