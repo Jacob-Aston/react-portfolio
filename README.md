@@ -26,4 +26,8 @@ This project uses a MIT license.
 
 Github profile page: [Jacob-Aston](https://github.com/Jacob-Aston)
 
+Live Page: https://jacob-aston.github.io/react-portfolio/
+
+Repo: https://github.com/Jacob-Aston/react-portfolio
+
 ---
