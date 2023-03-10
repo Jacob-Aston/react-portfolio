@@ -1,17 +1,18 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.fc4afe20.css",
-    "main.js": "/react-portfolio/static/js/main.9175bc9e.js",
+    "main.js": "/react-portfolio/static/js/main.b11bb0fd.js",
     "static/media/BlackRockProject.jpg": "/react-portfolio/static/media/BlackRockProject.58fa8afb12dfd51e8b05.jpg",
     "static/media/avatar.jpg": "/react-portfolio/static/media/avatar.51012ae05decb5615aa4.jpg",
     "static/media/WeatherForecast.png": "/react-portfolio/static/media/WeatherForecast.701c08e7f83ef1c50818.png",
+    "static/media/Stats-Tasktics.png": "/react-portfolio/static/media/Stats-Tasktics.c1764eee8d776a4258d7.png",
     "static/media/JATE.png": "/react-portfolio/static/media/JATE.034c93866d179813ab1f.png",
     "index.html": "/react-portfolio/index.html",
     "main.fc4afe20.css.map": "/react-portfolio/static/css/main.fc4afe20.css.map",
-    "main.9175bc9e.js.map": "/react-portfolio/static/js/main.9175bc9e.js.map"
+    "main.b11bb0fd.js.map": "/react-portfolio/static/js/main.b11bb0fd.js.map"
   },
   "entrypoints": [
     "static/css/main.fc4afe20.css",
-    "static/js/main.9175bc9e.js"
+    "static/js/main.b11bb0fd.js"
   ]
 }
