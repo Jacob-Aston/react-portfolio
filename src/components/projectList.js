@@ -19,6 +19,14 @@ const projects = [
         image: require("./../assets/images/BlackRockProject.jpg"),
         title: "Black Rock Clean Up",
         id: "3"
+    },
+    {
+        image: require("./../assets/images/Stats-Tasktics.png"),
+        title: "Stats-Tasktics",
+        repo: "https://github.com/Jacob-Aston/stats-tasktics",
+        repoText: "Repo",
+        deployed: "https://stat-tasktics.herokuapp.com/",
+        deployedText: "Deployed"
     }
 ]
 
