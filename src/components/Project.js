@@ -5,16 +5,16 @@ export default function Project(props) {
   return (
     <ul>
       {props.projects.map((project) => (
-        <div class="project-container" key={project.id}>
-          <img class="project-image" src={project.image} alt=""></img>
-          <div class="project-title">{project.title}</div>
+        <div className="project-container" key={project.id}>
+          <img className="project-image" src={project.image} alt=""></img>
+          <div className="project-title">{project.title}</div>
           {project.deployed ? (
-            <a class="project-deployed" href={project.deployed}>{project.deployedText}</a>
+            <a className="project-deployed" href={project.deployed}>{project.deployedText}</a>
             ) : (
               <div></div>
             )}
           {project.repo ? (
-            <a class="project-repo" href={project.repo}>{project.repoText}</a>
+            <a className="project-repo" href={project.repo}>{project.repoText}</a>
             ) : (
               <div></div>
             )}

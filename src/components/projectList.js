@@ -26,7 +26,8 @@ const projects = [
         repo: "https://github.com/Jacob-Aston/stats-tasktics",
         repoText: "Repo",
         deployed: "https://stat-tasktics.herokuapp.com/",
-        deployedText: "Deployed"
+        deployedText: "Deployed",
+        id: "4"
     }
 ]
 
