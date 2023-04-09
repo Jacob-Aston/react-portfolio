@@ -9,15 +9,19 @@ export default function Project(props) {
           <img className="project-image" src={project.image} alt=""></img>
           <div className="project-title">{project.title}</div>
           {project.deployed ? (
-            <a className="project-deployed" href={project.deployed}>{project.deployedText}</a>
-            ) : (
-              <div></div>
-            )}
+            <a className="project-deployed" href={project.deployed}>
+              {project.deployedText}
+            </a>
+          ) : (
+            <div></div>
+          )}
           {project.repo ? (
-            <a className="project-repo" href={project.repo}>{project.repoText}</a>
-            ) : (
-              <div></div>
-            )}
+            <a className="project-repo" href={project.repo}>
+              {project.repoText}
+            </a>
+          ) : (
+            <div></div>
+          )}
         </div>
       ))}
     </ul>
