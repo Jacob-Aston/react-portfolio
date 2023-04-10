@@ -1,6 +1,7 @@
 h2 {
     font-size: 2.5em;
-    margin: 0px 0px 0px 100px
+    width: fit-content;
+    margin: auto;
 }
 
 p.about {
@@ -10,8 +11,9 @@ p.about {
 }
 
 .avatar {
+    display: block;
     width: 200px;
     height: 200px;
-    margin: 20px 0px 20px 100px;
+    margin: 50px auto;
     border-radius: 50%;
 }
