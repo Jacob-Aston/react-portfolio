@@ -22,3 +22,7 @@ footer {
   border: 2px solid;
   border-color: #644536;
 }
+
+.link:hover {
+  background-color: #bca371;
+}
