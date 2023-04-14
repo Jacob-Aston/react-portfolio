@@ -8,7 +8,7 @@ export default function About() {
   return (
     <div>
       <h2>About Page</h2>
-      <img src={avatar} className="avatar" alt="a picture of me"></img>
+      <img src={avatar} className="avatar" alt="A self portrait."></img>
       <p className="about">
         I'm a strapping young lad with an interest in entrepreneurship and
         leadership. Through my time Working I have learned the importance of
