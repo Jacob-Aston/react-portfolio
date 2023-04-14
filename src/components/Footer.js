@@ -15,7 +15,10 @@ export default function Footer() {
         >
           LinkedIn
         </a>
-        <a className="link" href="">
+        <a
+          className="link"
+          href="https://www.figma.com/file/gtjzIKgmPW7BVG0uL5sW2x/Untitled?node-id=0%3A1&t=hWsDefXFwpopwT19-1"
+        >
           Figma
         </a>
       </div>
