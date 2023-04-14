@@ -1,7 +1,3 @@
-* {
-  box-sizing: border-box;
-}
-
 .dropdown {
   position: relative;
 }
@@ -52,9 +48,17 @@
 }
 
 .nav-link.active {
-  background-color: #bca371;
+  border-left: 20px solid ;
 }
 
 .show {
   display: flex;
+}
+
+.dropbtn:hover {
+  background-color: #bca371;
+}
+
+.nav-link:hover {
+  background-color: #bca371;
 }
