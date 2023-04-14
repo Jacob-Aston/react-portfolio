@@ -3,7 +3,7 @@ import "../styles/Project.css";
 
 export default function Project(props) {
   return (
-    <ul>
+    <ul className="project-list">
       {props.projects.map((project) => (
         <div className="project-container" key={project.id}>
           <div className="image-container">
