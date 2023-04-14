@@ -4,7 +4,7 @@ import "../../styles/Resume.css";
 
 export default function Resume() {
   return (
-    <div>
+    <div className="resume-container">
       <p>
         Take a look at my previous work experience. It may not be tech related
         but I sure learned how to work hard along with the importance of
