@@ -6,7 +6,7 @@ p {
 
 li {
   font-size: 1.5em;
-  margin: 0 15px;
+  margin: 0 20px;
 }
 
 .resume-container {
@@ -26,4 +26,8 @@ a.resume {
   border-radius: 20px;
   border: 2px solid;
   border-color: #644536;
+}
+
+.resume:hover {
+  background-color: #bca371;
 }
