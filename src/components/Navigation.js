@@ -2,7 +2,9 @@ import React from "react";
 import "../styles/Navigation.css";
 
 function Navigation({ currentPage, handlePageChange }) {
-  const dropFunction = () => {};
+  const dropFunction = () => {
+    document.getElementById("myDropdown").classList.toggle("show");
+  };
   return (
     <nav>
       <div className="dropdown">
@@ -46,7 +48,7 @@ function Navigation({ currentPage, handlePageChange }) {
           </a>
         </ul>
       </div>
-      <ul className="nav">
+      <ul className="nav-row">
         <a
           href="#about"
           onClick={() => handlePageChange("About")}
