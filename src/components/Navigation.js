@@ -3,17 +3,17 @@ import "../styles/Navigation.css";
 
 function Navigation({ currentPage, handlePageChange }) {
 const dropFunction = () => {
-  
+
 }
   return (
     <div>
       <div className="dropdown">
-        <button className="dropbtn" onClick={dropFunction}>Dropdown</button>
+        <button className="dropbtn" onClick={dropFunction}>---</button>
         <div className="dropdown-content" id="myDropdown">
-          <div>About Me</div>
-          <div>Portfolio</div>
-          <div>Contact</div>
-          <div>Resume</div>
+          <button>About Me</button>
+          <button>Portfolio</button>
+          <button>Contact</button>
+          <button>Resume</button>
         </div>
       </div>
       <ul className="nav">
