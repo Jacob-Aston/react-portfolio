@@ -2,13 +2,13 @@ import React from "react";
 import "../styles/Navigation.css";
 
 function Navigation({ currentPage, handlePageChange }) {
-const dropFunction = () => {
-
-}
+  const dropFunction = () => {};
   return (
-    <div>
+    <nav>
       <div className="dropdown">
-        <button className="dropbtn" onClick={dropFunction}>---</button>
+        <button className="dropbtn" onClick={dropFunction}>
+          ---
+        </button>
         <div className="dropdown-content" id="myDropdown">
           <button>About Me</button>
           <button>Portfolio</button>
@@ -48,7 +48,7 @@ const dropFunction = () => {
           Resume
         </a>
       </ul>
-    </div>
+    </nav>
   );
 }
 
