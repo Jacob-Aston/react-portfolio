@@ -48,3 +48,7 @@ a {
   border-radius: 20px;
   background-color: white;
 }
+
+.project-link:hover {
+  background: lightgrey;
+}
