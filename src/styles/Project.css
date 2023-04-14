@@ -37,7 +37,7 @@ ul {
   padding: 10px;
   border-top: 2px solid;
   font-size: 1.5em;
-  background-color: #fefae0;
+  background-color: white;
 }
 
 .project-link {
@@ -46,5 +46,5 @@ ul {
   margin: 7px;
   border: 2px solid;
   border-radius: 20px;
-  background-color: #fefae0;
+  background-color: white;
 }
