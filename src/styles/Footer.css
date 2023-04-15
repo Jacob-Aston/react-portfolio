@@ -16,7 +16,7 @@ footer {
   text-decoration: none;
   color: black;
   padding: 15px;
-  margin: 5px;
+  margin: 10px;
   background-color: #e1c48b;
   border-radius: 10px;
   border: 2px solid;
@@ -25,4 +25,10 @@ footer {
 
 .link:hover {
   background-color: #bca371;
+}
+
+@media (min-width: 744px) {
+  .link {
+    padding: 25px;
+  }
 }
