@@ -31,3 +31,10 @@ label {
   border: 2px solid;
   background-color: #a6b07e;
 }
+
+@media (min-width: 744px) {
+  .form-container {
+    width: 500px;
+    margin: 25px auto;
+  }
+}
