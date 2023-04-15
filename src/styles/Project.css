@@ -4,19 +4,19 @@ a {
 }
 
 .project-list {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
+  columns: 1;
+  column-gap: 30px;
   padding: 0;
-  margin: 10px;
+  margin: 25px 30px;
   list-style: none;
 }
 
 .project-container {
+  break-inside: avoid;
   display: flex;
   flex-direction: column;
   width: auto;
-  margin: 15px 20px;
+  margin: 0 0 30px;
   flex-basis: 322px;
   flex-grow: 1;
 }
@@ -58,4 +58,10 @@ a {
 
 .project-link:hover {
   background: lightgrey;
+}
+
+@media (min-width: 744px) {
+  .project-list {
+    columns: 2;
+  }
 }
