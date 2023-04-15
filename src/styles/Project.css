@@ -4,7 +4,12 @@ a {
 }
 
 .project-list {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
   padding: 0;
+  margin: 0;
+  list-style: none;
 }
 
 .project-container {
@@ -12,6 +17,8 @@ a {
   flex-direction: column;
   width: auto;
   margin: 15px 20px;
+  flex-basis: 350px;
+  flex-grow: 1;
 }
 
 .image-container {
