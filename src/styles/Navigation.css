@@ -35,6 +35,11 @@ nav {
   z-index: 2;
 }
 
+.dropdown-content .nav-link.active {
+  box-shadow: 0 0;
+  margin: 0;
+}
+
 .nav-row {
   display: none;
   width: 75%;
