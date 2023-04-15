@@ -32,7 +32,7 @@ nav {
   min-width: 160px;
   width: 300px;
   height: fit-content;
-  z-index: 1;
+  z-index: 2;
 }
 
 .nav-row {

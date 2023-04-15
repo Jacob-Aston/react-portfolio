@@ -19,12 +19,17 @@ a {
   margin: 0 0 30px;
   flex-basis: 322px;
   flex-grow: 1;
+  background-color: #a6b07e;
+  box-shadow: 5px 5px gray;
 }
 
 .image-container {
   display: flex;
+  margin: 0px -5px;
   flex-direction: column;
   border: 2px solid;
+  box-shadow: 5px 5px gray;
+  z-index: 1;
 }
 
 .project-image {
@@ -50,10 +55,11 @@ a {
 .project-link {
   box-sizing: border-box;
   padding: 10px;
-  margin: 7px;
+  margin: 10px;
+  background-color: white;
   border: 2px solid;
   border-radius: 20px;
-  background-color: white;
+  box-shadow: 3px 3px gray;
 }
 
 .project-link:hover {
