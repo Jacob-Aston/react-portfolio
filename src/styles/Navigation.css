@@ -4,13 +4,17 @@ nav {
 
 .dropdown {
   position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .dropdown .dropbtn {
   padding: 15px;
   border: solid 2px;
-  border-color: #644536;
   margin: 0 0 10px;
+  width: fit-content;
+  border-color: #644536;
   background-color: #e1c48b;
 }
 
