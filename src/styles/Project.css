@@ -57,7 +57,7 @@ a {
   background-color: white;
   border: 2px solid;
   border-radius: 20px;
-  box-shadow: 3px 3px gray;
+  box-shadow: 4px 4px gray;
 }
 
 .project-link:hover {
