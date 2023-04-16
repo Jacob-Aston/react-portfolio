@@ -1,7 +1,6 @@
 p {
   font-size: 1.5em;
   text-indent: 20px;
-  margin: 40px 20px 0 20px;
 }
 
 li {
@@ -9,16 +8,13 @@ li {
   margin: 0 20px;
 }
 
-.resume-container {
-  display: flex;
-  flex-direction: column;
-}
-
-a.resume {
+.resume {
+  display: block;
   box-sizing: border-box;
-  margin: 20px 0px 20px 100px;
+  margin: 30px auto 0;
   padding: 20px;
   width: fit-content;
+  height: fit-content;
   font-size: 1.5em;
   text-decoration: none;
   color: black;
@@ -28,6 +24,36 @@ a.resume {
   border-color: #644536;
 }
 
+.resume-page {
+  columns: 1;
+  column-gap: 60px;
+  margin: 25px 30px 30px 30px;
+}
+
+.resume-container {
+  break-inside: avoid;
+}
+
+.program-experience {
+  display: inline-block;
+  break-inside: avoid;
+}
+
+.skill-list {
+  display: block;
+  box-sizing: border-box;
+  width: fit-content;
+  padding: 0;
+  margin: 30px auto;
+}
+
 .resume:hover {
   background-color: #bca371;
+}
+
+@media (min-width: 744px) {
+  .resume-page {
+    columns: 2;
+    column-rule: solid 6px black;
+  }
 }
