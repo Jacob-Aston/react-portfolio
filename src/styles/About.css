@@ -33,3 +33,9 @@ h2 {
     columns: 2;
   }
 }
+
+@media (min-width: 1440px) {
+  .about-introduction {
+    margin: 0 100px;
+  }
+}
