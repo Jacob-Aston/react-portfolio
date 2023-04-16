@@ -57,3 +57,9 @@ li {
     column-rule: solid 6px black;
   }
 }
+
+@media (min-width: 1440px) {
+  .skill-list {
+    columns: 2;
+  }
+}
