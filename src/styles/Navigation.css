@@ -64,8 +64,9 @@ nav {
 }
 
 .nav-link.active {
-  box-shadow: 5px 5px gray;
-  margin-bottom: 5px;
+  box-shadow: 10px 10px rgba(128, 128, 128, 0.75);
+  margin-bottom: 10px;
+  border-bottom: 10px solid #644536;
 }
 
 .show {
