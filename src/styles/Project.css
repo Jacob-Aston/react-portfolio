@@ -68,3 +68,9 @@ a {
     columns: 2;
   }
 }
+
+@media (min-width: 1440px) {
+  .project-list {
+    columns: 3;
+  }
+}
