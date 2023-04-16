@@ -7,9 +7,9 @@ export default function Resume() {
     <div className="resume-page">
       <div className="resume-container">
         <p>
-          Take a look at my previous work experience. It may not be tech related
-          but I sure learned how to work hard along with the importance of
-          supporting my team.
+          Heres a link to my previous work experience. It's not tech related
+          but I learned how to work hard to
+          support my team.
         </p>
         <a
           className="resume"
