@@ -1,19 +1,30 @@
 h2 {
-    font-size: 2.5em;
-    width: fit-content;
-    margin: auto;
+  font-size: 2.5em;
+  width: fit-content;
+  margin: auto;
 }
 
-p.about {
-    font-size: 1.5em;
-    text-indent: 50px;
-    margin: 40px 20px 0px 20px;
+.about-introduction {
+  columns: 1;
+}
+
+.about {
+  break-inside: auto;
+  font-size: 1.5em;
+  text-indent: 50px;
+  margin: 25px 20px 25px 20px;
 }
 
 .avatar {
-    display: block;
-    width: 200px;
-    height: 200px;
-    margin: 50px auto;
-    border-radius: 50%;
+  display: block;
+  width: 200px;
+  height: 200px;
+  margin: 50px auto;
+  border-radius: 50%;
+}
+
+@media (min-width: 744px) {
+  .about-introduction {
+    columns: 2;
+  }
 }
