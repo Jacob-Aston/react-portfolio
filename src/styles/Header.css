@@ -1,14 +1,15 @@
 h1 {
-    margin: auto;
-    font-size: 3em;
+  margin: auto;
+  font-size: 3em;
 }
 
 .header-container {
-    height: auto;
-    width: auto;
-    background-color: #a6b07e;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-bottom: 2px solid ;
+  height: auto;
+  width: auto;
+  background-color: #a6b07e;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 4px solid;
+  border-color: black;
 }
