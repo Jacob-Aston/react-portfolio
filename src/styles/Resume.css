@@ -18,10 +18,10 @@ li {
   font-size: 1.5em;
   text-decoration: none;
   color: black;
-  background-color: #e1c48b;
+  background-color: whitesmoke;
   border-radius: 20px;
   border: 2px solid;
-  border-color: #644536;
+  border-color: black;
 }
 
 .resume-page {
@@ -48,13 +48,13 @@ li {
 }
 
 .resume:hover {
-  background-color: #bca371;
+  background-color: lightgray;
 }
 
 @media (min-width: 744px) {
   .resume-page {
     columns: 2;
-    column-rule: solid 6px black;
+    column-rule: solid 6px goldenrod;
   }
 }
 
