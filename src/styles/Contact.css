@@ -37,6 +37,6 @@ label {
 @media (min-width: 744px) {
   form {
     width: 642px;
-    margin: 25px auto 30px auto;
+    margin: 0px auto 30px auto;
   }
 }
