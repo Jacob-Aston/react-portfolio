@@ -1,6 +1,11 @@
 form {
   display: flex;
   flex-direction: column;
+  margin: 0 0 30px;
+  padding: 0 10px 10px 10px;
+  width: auto;
+  border: 2px solid;
+  background-color: #a6b07e;
 }
 
 form input {
@@ -24,16 +29,13 @@ label {
   width: fit-content;
 }
 
-.form-container {
+.form-page {
+  columns: 1;
   margin: 25px 30px 30px 30px;
-  padding: 0 10px 10px 10px;
-  width: auto;
-  border: 2px solid;
-  background-color: #a6b07e;
 }
 
 @media (min-width: 744px) {
-  .form-container {
+  form {
     width: 642px;
     margin: 25px auto 30px auto;
   }
