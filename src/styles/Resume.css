@@ -1,5 +1,7 @@
 p {
+  margin: 30px auto;
   font-size: 1.5em;
+  text-align: center;
   text-indent: 20px;
 }
 
@@ -11,7 +13,7 @@ li {
 .resume {
   display: block;
   box-sizing: border-box;
-  margin: 30px auto 0;
+  margin: 0 auto 30px;
   padding: 20px;
   width: fit-content;
   height: fit-content;
