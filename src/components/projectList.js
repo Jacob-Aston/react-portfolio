@@ -16,11 +16,6 @@ const projects = [
     id: "2",
   },
   {
-    image: require("./../assets/images/BlackRockProject.jpg"),
-    title: "Black Rock Clean Up",
-    id: "3",
-  },
-  {
     image: require("./../assets/images/Stats-Tasktics.png"),
     title: "Stats-Tasktics",
     linkOne: "https://stat-tasktics.herokuapp.com/",
