@@ -67,8 +67,8 @@ export default function Contact() {
         />
         <label>Message:</label>
         <textarea name="message" onBlur={(e) => validateMessage(e)} required />
-        <div>{emailError}</div>
-        <div>{hasMessage}</div>
+        <div className="contact-validation">{emailError}</div>
+        <div className="contact-validation">{hasMessage}</div>
         <input className="submit-btn" type="submit" value="Send" />
       </form>
     </div>

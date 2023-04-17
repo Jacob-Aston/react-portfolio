@@ -24,6 +24,10 @@ label {
   font-size: 1.8em;
 }
 
+.contact-validation {
+  font-size: large;
+}
+
 .submit-btn {
   margin-top: 20px;
   width: fit-content;
@@ -38,5 +42,9 @@ label {
   form {
     width: 642px;
     margin: 0px auto 30px auto;
+  }
+
+  .contact-validation {
+    font-size: larger;
   }
 }
