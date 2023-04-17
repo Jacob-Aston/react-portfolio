@@ -16,6 +16,7 @@ export default function Resume() {
         >
           My Resume
         </a>
+        <hr></hr>
       </div>
       <div className="program-experience">
         <p>
