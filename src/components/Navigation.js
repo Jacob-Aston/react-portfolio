@@ -1,5 +1,7 @@
 import React from "react";
 import "../styles/Navigation.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 function Navigation({ currentPage, handlePageChange }) {
   const dropFunction = () => {
@@ -18,7 +20,9 @@ function Navigation({ currentPage, handlePageChange }) {
     <nav>
       <div className="dropdown">
         <button className="dropbtn" onClick={dropFunction}>
-          ---
+          <i>
+            <FontAwesomeIcon icon={faBars} className={"fa-3x"} />
+          </i>
         </button>
         <ul className="dropdown-content" id="myDropdown">
           <a
