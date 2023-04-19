@@ -50,6 +50,17 @@ a {
   background-color: white;
 }
 
+.subtitle {
+  background-color: white;
+  margin: 0 10px;
+  padding: 5px 0 0 1em;
+  border: solid black;
+  border-width: 0 2px 2px;
+  box-shadow: 5px 5px rgba(128, 128, 128, 0.75),
+    inset 0 5px rgba(128, 128, 128, 0.75);
+  z-index: 1;
+}
+
 .project-link {
   box-sizing: border-box;
   padding: 10px;

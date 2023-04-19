@@ -6,6 +6,7 @@ const projects = [
     linkOneText: "Deployed App",
     linkTwo: "https://github.com/Jacob-Aston/texty-rexy",
     linkTwoText: "Repo",
+    subtitle: "Progressive Web Application",
     id: "1",
   },
   {
@@ -13,6 +14,7 @@ const projects = [
     title: "Weather Forecast",
     linkOne: "https://github.com/Jacob-Aston/weather-forecast",
     linkOneText: "Repo",
+    subtitle: "Weather API",
     id: "2",
   },
   {
@@ -22,6 +24,7 @@ const projects = [
     linkOneText: "Deployed",
     linkTwo: "https://github.com/Jacob-Aston/stats-tasktics",
     linkTwoText: "Repo",
+    subtitle: "MERN Stack",
     id: "4",
   },
 ];
