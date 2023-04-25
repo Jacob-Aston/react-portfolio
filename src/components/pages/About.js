@@ -1,5 +1,7 @@
 import React from "react";
 
+import Carousel, { CarouselItem } from "./../Carousel";
+
 import avatar from "./../../assets/images/avatar.jpg";
 
 import "../../styles/About.css";
@@ -22,6 +24,13 @@ export default function About() {
           moment. Look at the flowers and watch the birds. Enjoying the sun and
           exercise. I have found it tremendously beneficial to my mental health.
         </p>
+      </div>
+      <div className="round-about">
+        <Carousel>
+          <CarouselItem>Item 1</CarouselItem>
+          <CarouselItem>Item 2</CarouselItem>
+          <CarouselItem>Item 3</CarouselItem>
+        </Carousel>
       </div>
     </div>
   );
