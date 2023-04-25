@@ -9,8 +9,8 @@ export default function Project(props) {
           <div className="image-container">
             <img className="project-image" src={project.image} alt=""></img>
             <div className="project-title">{project.title}</div>
+            <div className="subtitle">{project.subtitle}</div>
           </div>
-          <div className="subtitle">{project.subtitle}</div>
           <div className="link-container">
             {project.linkOne ? (
               <a className="project-link" href={project.linkOne}>
