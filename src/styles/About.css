@@ -28,6 +28,14 @@ h2 {
   border-radius: 50%;
 }
 
+.carousel-image {
+  height: 100%;
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
 @media (min-width: 744px) {
   .about-introduction {
     columns: 2;

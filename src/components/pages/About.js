@@ -4,6 +4,8 @@ import Carousel, { CarouselItem } from "./../Carousel";
 
 import avatar from "./../../assets/images/avatar.jpg";
 
+import imageTwo from "./../../assets/images/BlackRockProject.jpg";
+
 import "../../styles/About.css";
 
 export default function About() {
@@ -27,9 +29,24 @@ export default function About() {
       </div>
       <div className="round-about">
         <Carousel>
-          <CarouselItem>Item 1</CarouselItem>
-          <CarouselItem>Item 2</CarouselItem>
-          <CarouselItem>Item 3</CarouselItem>
+          <CarouselItem className="image-one">
+            <div
+              className="carousel-image"
+              style={{ backgroundImage: `url(${imageTwo})` }}
+            ></div>
+          </CarouselItem>
+          <CarouselItem>
+            <div
+              className="carousel-image"
+              style={{ backgroundImage: `url(${imageTwo})` }}
+            ></div>
+          </CarouselItem>
+          <CarouselItem>
+            <div
+              className="carousel-image"
+              style={{ backgroundImage: `url(${imageTwo})` }}
+            ></div>
+          </CarouselItem>
         </Carousel>
       </div>
     </div>
