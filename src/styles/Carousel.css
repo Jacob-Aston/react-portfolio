@@ -5,14 +5,14 @@
 
 .inner {
   white-space: nowrap;
-  transition: transform 1s;
+  transition: transform 1.5s;
 }
 
 .carousel-item {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  height: 300px;
+  height: 150px;
   color: #fff;
 }
 
@@ -28,4 +28,10 @@
 .indicators > button.active {
   background-color: green;
   color: #fff;
+}
+
+@media (min-width: 740px) {
+  .carousel-item {
+    height: 300px;
+  }
 }

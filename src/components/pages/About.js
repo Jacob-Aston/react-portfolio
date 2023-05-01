@@ -4,7 +4,10 @@ import Carousel, { CarouselItem } from "./../Carousel";
 
 import avatar from "./../../assets/images/avatar.jpg";
 
-import imageTwo from "./../../assets/images/BlackRockProject.jpg";
+import DeseretPeakTrail from "./../../assets/images/carousel/DeseretPeakTrail.jpg";
+import DeseretPeakSummit from "./../../assets/images/carousel/DeseretPeakSummit.jpg";
+import GreatSaltLakeJetty from "./../../assets/images/carousel/GreatSaltLakeJetty.jpg";
+import GreatSaltLakeRiver from "./../../assets/images/carousel/GreatSaltLakeRiver.jpg";
 
 import "../../styles/About.css";
 
@@ -32,19 +35,25 @@ export default function About() {
           <CarouselItem className="image-one">
             <div
               className="carousel-image"
-              style={{ backgroundImage: `url(${imageTwo})` }}
+              style={{ backgroundImage: `url(${DeseretPeakTrail})` }}
             ></div>
           </CarouselItem>
           <CarouselItem>
             <div
               className="carousel-image"
-              style={{ backgroundImage: `url(${imageTwo})` }}
+              style={{ backgroundImage: `url(${DeseretPeakSummit})` }}
             ></div>
           </CarouselItem>
           <CarouselItem>
             <div
               className="carousel-image"
-              style={{ backgroundImage: `url(${imageTwo})` }}
+              style={{ backgroundImage: `url(${GreatSaltLakeJetty})` }}
+            ></div>
+          </CarouselItem>
+          <CarouselItem>
+            <div
+              className="carousel-image"
+              style={{ backgroundImage: `url(${GreatSaltLakeRiver})` }}
             ></div>
           </CarouselItem>
         </Carousel>
