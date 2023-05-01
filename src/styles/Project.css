@@ -1,13 +1,22 @@
+h2 {
+  font-size: 2.5em;
+  width: fit-content;
+  margin: auto;
+}
+
 a {
   text-decoration: none;
   color: black;
 }
 
+.portfolio-page {
+  margin-top: 25px;
+}
 .project-list {
   columns: 1;
   column-gap: 40px;
   padding: 0;
-  margin: 25px 30px 30px 30px;
+  margin: 50px 30px 30px 30px;
   list-style: none;
 }
 

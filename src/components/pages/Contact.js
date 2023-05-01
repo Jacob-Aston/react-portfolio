@@ -55,6 +55,7 @@ export default function Contact() {
 
   return (
     <div className="form-page">
+      <h2>Contact</h2>
       <form ref={form} onSubmit={sendEmail}>
         <label>Name:</label>
         <input type="text" name="user_name" required />

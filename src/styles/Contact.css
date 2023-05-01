@@ -1,7 +1,13 @@
+h2 {
+  font-size: 2.5em;
+  width: fit-content;
+  margin: auto;
+}
+
 form {
   display: flex;
   flex-direction: column;
-  margin: 0 0 30px;
+  margin: 50px auto 30px;
   padding: 0 10px 10px 10px;
   width: auto;
   border: 2px solid;
@@ -41,7 +47,6 @@ label {
 @media (min-width: 744px) {
   form {
     width: 642px;
-    margin: 0px auto 30px auto;
   }
 
   .contact-validation {

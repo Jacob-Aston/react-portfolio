@@ -1,3 +1,9 @@
+h2 {
+  font-size: 2.5em;
+  width: fit-content;
+  margin: auto;
+}
+
 li {
   font-size: 1.5em;
   margin: 0 20px;
@@ -6,6 +12,10 @@ li {
 hr {
   height: 5px;
   background-color: goldenrod;
+}
+
+.resume-page {
+  margin-top: 25px;
 }
 
 .resume {
@@ -24,13 +34,13 @@ hr {
   border-color: black;
 }
 
-.resume-page {
+.resume-container {
   columns: 1;
   column-gap: 60px;
-  margin: 25px 30px 30px 30px;
+  margin: 20px 30px 30px 30px;
 }
 
-.resume-container {
+.resume-experience {
   break-inside: avoid;
 }
 
@@ -59,7 +69,7 @@ hr {
 }
 
 @media (min-width: 744px) {
-  .resume-page {
+  .resume-container {
     columns: 2;
     column-rule: solid 6px goldenrod;
   }
