@@ -30,7 +30,7 @@
   color: #fff;
 }
 
-@media (min-width: 740px) {
+@media (min-width: 744px) {
   .carousel-item {
     height: 300px;
   }
