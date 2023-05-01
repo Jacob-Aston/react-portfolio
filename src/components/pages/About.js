@@ -14,14 +14,14 @@ import "../../styles/About.css";
 export default function About() {
   return (
     <div className="about-container">
-      <h2>About Page</h2>
+      <h2>About Me</h2>
       <img src={avatar} className="avatar" alt="A self portrait."></img>
       <div className="about-introduction">
         <p className="about">
           I'm a hard working young man with an interest in entrepreneurship and
-          leadership. Through my time Working I have learned the importance of
+          leadership. Through my time working, I have learned the importance of
           developing a positive culture in the workplace. As well as doing what
-          I can to support the team and my leadership.
+          I can to support the team, and my leadership.
         </p>
         <p className="about">
           I love the great outdoors. Living in the mountains of Utah. I go on a
