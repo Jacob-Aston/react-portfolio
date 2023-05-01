@@ -33,11 +33,24 @@
 
 .indicators > button.active {
   background-color: #a6b07e;
-  color: #fff;
 }
 
 @media (min-width: 744px) {
+  .carousel {
+    width: 80%;
+  }
+
   .carousel-item {
     height: 300px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .carousel {
+    width: 70%;
+  }
+
+  .carousel-item {
+    height: 450px;
   }
 }
