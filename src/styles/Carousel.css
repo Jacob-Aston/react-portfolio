@@ -1,6 +1,12 @@
 .carousel {
   overflow: hidden;
   margin: auto;
+  padding-top: 10px;
+  background-color: #bfbca8;
+}
+
+.carousel:hover {
+  background-color: #807d70;
 }
 
 .inner {
@@ -26,7 +32,7 @@
 }
 
 .indicators > button.active {
-  background-color: green;
+  background-color: #a6b07e;
   color: #fff;
 }
 
