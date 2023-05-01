@@ -21,7 +21,7 @@ const projects = [
     image: require("./../assets/images/Stats-Tasktics.png"),
     title: "Stats-Tasktics",
     linkOne: "https://stat-tasktics.herokuapp.com/",
-    linkOneText: "Deployed",
+    linkOneText: "Deployed App",
     linkTwo: "https://github.com/Jacob-Aston/stats-tasktics",
     linkTwoText: "Repo",
     subtitle: "MERN Stack",
