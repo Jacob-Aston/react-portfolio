@@ -15,7 +15,7 @@ nav {
   justify-content: center;
   padding: 5px;
   border: solid 2px;
-  margin: 0 0 10px;
+  margin: 5px 0 10px;
   width: fit-content;
   border-color: black;
   background-color: whitesmoke;
@@ -59,7 +59,7 @@ nav {
   display: none;
   width: 75%;
   padding: 0;
-  margin: 15px auto;
+  margin: 0 auto 5px;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
