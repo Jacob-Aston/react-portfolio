@@ -9,7 +9,11 @@ export default function Project(props) {
         {props.projects.map((project) => (
           <div className="project-container" key={project.id}>
             <div className="image-container">
-              <img className="project-image" src={project.image} alt=""></img>
+              <img
+                className="project-image"
+                src={project.image}
+                alt={project.imageAlt}
+              ></img>
               <div className="project-title">{project.title}</div>
               <div className="subtitle">{project.subtitle}</div>
             </div>

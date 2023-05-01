@@ -1,6 +1,7 @@
 const projects = [
   {
     image: require("./../assets/images/JATE.png"),
+    imageAlt: "Text editor app with install button in header.",
     title: "Just Another Text Editor",
     linkOne: "https://texty-rexy.herokuapp.com/",
     linkOneText: "Deployed App",
@@ -11,6 +12,7 @@ const projects = [
   },
   {
     image: require("./../assets/images/WeatherForecast.png"),
+    imageAlt: "Five day weather forecast with search bar and current weather.",
     title: "Weather Forecast",
     linkOne: "https://github.com/Jacob-Aston/weather-forecast",
     linkOneText: "Repo",
@@ -19,6 +21,7 @@ const projects = [
   },
   {
     image: require("./../assets/images/Stats-Tasktics.png"),
+    imageAlt: "Graphs with some statistics on statistics page.",
     title: "Stats-Tasktics",
     linkOne: "https://stat-tasktics.herokuapp.com/",
     linkOneText: "Deployed App",

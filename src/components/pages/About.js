@@ -15,7 +15,11 @@ export default function About() {
   return (
     <div className="about-container">
       <h2>About Me</h2>
-      <img src={avatar} className="avatar" alt="A self portrait."></img>
+      <img
+        src={avatar}
+        className="avatar"
+        alt="A circular portrait of Jacob."
+      ></img>
       <div className="about-introduction">
         <p className="about">
           I'm a hard working young man with an interest in entrepreneurship and
