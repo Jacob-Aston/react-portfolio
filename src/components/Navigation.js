@@ -1,28 +1,42 @@
 import React from "react";
 import "../styles/Navigation.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
+
+import { BiMenu } from "react-icons/bi";
 
 function Navigation({ currentPage, handlePageChange }) {
   const dropFunction = () => {
     document.getElementById("myDropdown").classList.toggle("show");
   };
 
-  window.onclick = function (e) {
-    if (!e.target.matches(".dropbtn")) {
-      var myDropdown = document.getElementById("myDropdown");
+  const handleClickOutside = (event) => {
+    if (!event.target.matches(".dropbtn")) {
+      const myDropdown = document.getElementById("myDropdown");
       if (myDropdown.classList.contains("show")) {
         myDropdown.classList.remove("show");
       }
     }
   };
+
+  /*Note that we removed the window.onclick function and replaced it with React.useEffect to add and remove an event listener for the click event. This ensures that the handleClickOutside function is only executed when the component is mounted and unmounted, avoiding any potential performance issues. */
+  React.useEffect(() => {
+    window.addEventListener("click", handleClickOutside);
+    return () => {
+      window.removeEventListener("click", handleClickOutside);
+    };
+  }, []);
+
   return (
     <nav>
       <div className="dropdown">
         <button className="dropbtn" onClick={dropFunction}>
-          <i>
-            <FontAwesomeIcon icon={faBars} className={"fa-3x"} />
-          </i>
+          <span>
+            <BiMenu
+              onClick={(event) => {
+                event.stopPropagation();
+                dropFunction();
+              }}
+            />
+          </span>
         </button>
         <ul className="dropdown-content" id="myDropdown">
           <a

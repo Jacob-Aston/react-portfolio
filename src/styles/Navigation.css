@@ -10,12 +10,25 @@ nav {
 }
 
 .dropdown .dropbtn {
-  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
   border: solid 2px;
   margin: 0 0 10px;
   width: fit-content;
   border-color: black;
   background-color: whitesmoke;
+  cursor: pointer;
+}
+
+.dropdown .dropbtn svg {
+  cursor: pointer;
+  font-size: 3em; /* set font size to 2em */
+}
+
+.dropdown .dropbtn svg {
+  cursor: pointer;
 }
 
 .dropdown-content {
