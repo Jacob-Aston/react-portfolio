@@ -1,3 +1,6 @@
+//  This component makes the JSX to be displayed on the Portfolio page using data from projectList.js.
+//  The Portfolio page and Project component JSX and CSS are handled in Project.js and Project.css.
+
 import React from "react";
 import "../styles/Project.css";
 

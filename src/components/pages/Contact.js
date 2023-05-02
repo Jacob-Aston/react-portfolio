@@ -1,3 +1,7 @@
+//  A contact form to contact me via email using emailjs.
+//  emailjs sends emails for free without redirecting or using ads.
+//  validator is used to validate the contact form data before attempting to run emailjs.
+
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import validator from "validator";
@@ -7,6 +11,7 @@ import "../../styles/Contact.css";
 export default function Contact() {
   const form = useRef();
 
+  // A function to send an email using emailjs.
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -28,9 +33,11 @@ export default function Contact() {
       );
   };
 
+  //  States to indicate data errors to the user. Must enter a proper email format and enter a message to press send.
   const [emailError, setEmailError] = useState("");
   const [hasMessage, setHasMessage] = useState("");
 
+  //  A function to validate email format entered on contact form using validator.
   function validateEmail(e) {
     const email = e.target.value;
 
@@ -42,6 +49,7 @@ export default function Contact() {
     }
   }
 
+  //  A function to verify input form contains message data.
   function validateMessage(e) {
     const message = e.target.value;
 

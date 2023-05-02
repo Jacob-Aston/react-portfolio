@@ -1,8 +1,12 @@
+//  The About page contains some information about me and an image carousel.
+//  The Carousel component design came from: https://medium.com/tinyso/how-to-create-the-responsive-and-swipeable-carousel-slider-component-in-react-99f433364aa0
+//  Each CarouselItem contain the contents to be diplayed inline within the carousel inner.
+
 import React from "react";
 
-import Carousel, { CarouselItem } from "./../Carousel";
-
 import avatar from "./../../assets/images/avatar.jpg";
+
+import Carousel, { CarouselItem } from "./../Carousel";
 
 import DeseretPeakTrail from "./../../assets/images/carousel/DeseretPeakTrail.jpg";
 import DeseretPeakSummit from "./../../assets/images/carousel/DeseretPeakSummit.jpg";

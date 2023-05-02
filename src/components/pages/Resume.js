@@ -1,3 +1,5 @@
+//  The Resume page has a link to my resume on google docs and a list of programming topics covered by my bootcamp.
+
 import React from "react";
 
 import "../../styles/Resume.css";

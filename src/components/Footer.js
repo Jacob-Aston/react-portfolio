@@ -1,3 +1,5 @@
+//  This component stays at the bottom of the page and has links to github, linkedin, and the figma made for this project.
+
 import React from "react";
 
 import "../styles/Footer.css";
