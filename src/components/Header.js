@@ -1,3 +1,5 @@
+//  This component contains the main header, Navigation component, and renders the current page.
+
 import React, { useState } from "react";
 import Navigation from "./Navigation";
 import About from "./pages/About";
@@ -7,6 +9,10 @@ import Resume from "./pages/Resume";
 
 import "../styles/Header.css";
 
+//  The currentPage state contains which page should be rendered.
+//  The renderPage function returns a page element matching currentPage.
+//  The handlePageChange function changes the currentPage state.
+//  currentPage and handlePageChange are use in the Navigation component.
 export default function Header() {
   const [currentPage, setCurrentPage] = useState("About");
 

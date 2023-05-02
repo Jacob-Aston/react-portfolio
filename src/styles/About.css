@@ -1,19 +1,49 @@
 h2 {
-    font-size: 2.5em;
-    width: fit-content;
-    margin: auto;
+  font-size: 2.5em;
+  width: fit-content;
+  margin: auto;
 }
 
-p.about {
-    font-size: 1.5em;
-    text-indent: 50px;
-    margin: 40px 20px 0px 20px;
+.about-container {
+  margin: 25px 30px 30px 30px;
+}
+
+.about-introduction {
+  columns: 1;
+  column-gap: 0;
+}
+
+.about {
+  break-inside: auto;
+  font-size: 1.5em;
+  text-indent: 50px;
+  margin: 0 30px 30px 30px;
 }
 
 .avatar {
-    display: block;
-    width: 200px;
-    height: 200px;
-    margin: 50px auto;
-    border-radius: 50%;
+  display: block;
+  width: 200px;
+  height: 200px;
+  margin: 50px auto;
+  border-radius: 50%;
+}
+
+.carousel-image {
+  height: 100%;
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+@media (min-width: 744px) {
+  .about-introduction {
+    columns: 2;
+  }
+}
+
+@media (min-width: 1440px) {
+  .about-introduction {
+    margin: 0 100px;
+  }
 }

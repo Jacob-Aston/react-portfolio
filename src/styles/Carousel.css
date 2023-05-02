@@ -1,0 +1,56 @@
+.carousel {
+  overflow: hidden;
+  margin: auto;
+  padding-top: 10px;
+  background-color: #bfbca8;
+}
+
+.carousel:hover {
+  background-color: #807d70;
+}
+
+.inner {
+  white-space: nowrap;
+  transition: transform 1.5s;
+}
+
+.carousel-item {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+  color: #fff;
+}
+
+.indicators {
+  display: flex;
+  justify-content: center;
+}
+
+.indicators > button {
+  margin: 5px;
+}
+
+.indicators > button.active {
+  background-color: #a6b07e;
+}
+
+@media (min-width: 744px) {
+  .carousel {
+    width: 80%;
+  }
+
+  .carousel-item {
+    height: 300px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .carousel {
+    width: 70%;
+  }
+
+  .carousel-item {
+    height: 450px;
+  }
+}

@@ -1,6 +1,17 @@
+h2 {
+  font-size: 2.5em;
+  width: fit-content;
+  margin: auto;
+}
+
 form {
   display: flex;
   flex-direction: column;
+  margin: 50px auto 30px;
+  padding: 0 10px 10px 10px;
+  width: auto;
+  border: 2px solid;
+  background-color: #a6b07e;
 }
 
 form input {
@@ -19,15 +30,26 @@ label {
   font-size: 1.8em;
 }
 
+.contact-validation {
+  font-size: large;
+}
+
 .submit-btn {
   margin-top: 20px;
   width: fit-content;
 }
 
-.form-container {
-  margin: 20px;
-  padding: 0 10px 10px 10px;
-  width: auto;
-  border: 2px solid;
-  background-color: #a6b07e;
+.form-page {
+  columns: 1;
+  margin: 25px 30px 30px 30px;
+}
+
+@media (min-width: 744px) {
+  form {
+    width: 642px;
+  }
+
+  .contact-validation {
+    font-size: larger;
+  }
 }

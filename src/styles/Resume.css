@@ -1,7 +1,7 @@
-p {
-  font-size: 1.5em;
-  text-indent: 20px;
-  margin: 40px 20px 0 20px;
+h2 {
+  font-size: 2.5em;
+  width: fit-content;
+  margin: auto;
 }
 
 li {
@@ -9,25 +9,78 @@ li {
   margin: 0 20px;
 }
 
-.resume-container {
-  display: flex;
-  flex-direction: column;
+hr {
+  height: 5px;
+  background-color: goldenrod;
 }
 
-a.resume {
+.resume-page {
+  margin-top: 25px;
+}
+
+.resume {
+  display: block;
   box-sizing: border-box;
-  margin: 20px 0px 20px 100px;
+  margin: 0 auto 30px;
   padding: 20px;
   width: fit-content;
+  height: fit-content;
   font-size: 1.5em;
   text-decoration: none;
   color: black;
-  background-color: #e1c48b;
+  background-color: whitesmoke;
   border-radius: 20px;
   border: 2px solid;
-  border-color: #644536;
+  border-color: black;
+}
+
+.resume-container {
+  columns: 1;
+  column-gap: 60px;
+  margin: 20px 30px 30px 30px;
+}
+
+.resume-experience {
+  break-inside: avoid;
+}
+
+.resume-page p {
+  margin: 30px auto;
+  font-size: 1.5em;
+  text-align: center;
+  text-indent: 20px;
+}
+
+.program-experience {
+  display: inline-block;
+  break-inside: avoid;
+}
+
+.skill-list {
+  display: block;
+  box-sizing: border-box;
+  width: fit-content;
+  padding: 0;
+  margin: 30px auto;
 }
 
 .resume:hover {
-  background-color: #bca371;
+  background-color: lightgray;
+}
+
+@media (min-width: 744px) {
+  .resume-container {
+    columns: 2;
+    column-rule: solid 6px goldenrod;
+  }
+
+  .resume-container hr {
+    display: none;
+  }
+}
+
+@media (min-width: 1440px) {
+  .skill-list {
+    columns: 2;
+  }
 }
