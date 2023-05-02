@@ -1,18 +1,21 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.fc4afe20.css",
-    "main.js": "/react-portfolio/static/js/main.b11bb0fd.js",
-    "static/media/BlackRockProject.jpg": "/react-portfolio/static/media/BlackRockProject.58fa8afb12dfd51e8b05.jpg",
+    "main.css": "/react-portfolio/static/css/main.c540d7a1.css",
+    "main.js": "/react-portfolio/static/js/main.f4ad91fa.js",
+    "static/media/DeseretPeakTrail.jpg": "/react-portfolio/static/media/DeseretPeakTrail.f24478dc4dda01e1404f.jpg",
+    "static/media/GreatSaltLakeJetty.jpg": "/react-portfolio/static/media/GreatSaltLakeJetty.611fea15392776e9fb15.jpg",
     "static/media/avatar.jpg": "/react-portfolio/static/media/avatar.51012ae05decb5615aa4.jpg",
+    "static/media/GreatSaltLakeRiver.jpg": "/react-portfolio/static/media/GreatSaltLakeRiver.e42aed0776d857a0b7a5.jpg",
+    "static/media/DeseretPeakSummit.jpg": "/react-portfolio/static/media/DeseretPeakSummit.51efffa9f8a01cef59ce.jpg",
     "static/media/WeatherForecast.png": "/react-portfolio/static/media/WeatherForecast.701c08e7f83ef1c50818.png",
     "static/media/Stats-Tasktics.png": "/react-portfolio/static/media/Stats-Tasktics.c1764eee8d776a4258d7.png",
     "static/media/JATE.png": "/react-portfolio/static/media/JATE.034c93866d179813ab1f.png",
     "index.html": "/react-portfolio/index.html",
-    "main.fc4afe20.css.map": "/react-portfolio/static/css/main.fc4afe20.css.map",
-    "main.b11bb0fd.js.map": "/react-portfolio/static/js/main.b11bb0fd.js.map"
+    "main.c540d7a1.css.map": "/react-portfolio/static/css/main.c540d7a1.css.map",
+    "main.f4ad91fa.js.map": "/react-portfolio/static/js/main.f4ad91fa.js.map"
   },
   "entrypoints": [
-    "static/css/main.fc4afe20.css",
-    "static/js/main.b11bb0fd.js"
+    "static/css/main.c540d7a1.css",
+    "static/js/main.f4ad91fa.js"
   ]
 }
